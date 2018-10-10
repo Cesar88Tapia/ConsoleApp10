@@ -10,6 +10,10 @@ namespace ConsoleApp10
     {
         static void Main(string[] args)
         {
+            clsMatrices Matrix;
+            Matrix = new clsMatrices();
+            Matrix.InitMatrix();
+            Matrix.PrintMatrix();
         }
     }
 }
